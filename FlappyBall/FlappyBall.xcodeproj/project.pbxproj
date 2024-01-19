@@ -56,15 +56,31 @@
 		FBCC61D82B529E1D004378FD /* FlappyBall */ = {
 			isa = PBXGroup;
 			children = (
-				FBCC61D92B529E1D004378FD /* AppDelegate.swift */,
-				FBCC61DB2B529E1D004378FD /* SceneDelegate.swift */,
-				FBCC61DD2B529E1D004378FD /* ViewController.swift */,
-				FBCC61DF2B529E1D004378FD /* Main.storyboard */,
-				FBCC61E22B529E1F004378FD /* Assets.xcassets */,
-				FBCC61E42B529E1F004378FD /* LaunchScreen.storyboard */,
+				FBDC74602B52EAD200B00E7B /* Resources */,
+				FBDC74552B52CE5E00B00E7B /* Controllers */,
 				FBCC61E72B529E1F004378FD /* Info.plist */,
 			);
 			path = FlappyBall;
+			sourceTree = "<group>";
+		};
+		FBDC74552B52CE5E00B00E7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC61DD2B529E1D004378FD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FBDC74602B52EAD200B00E7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC61D92B529E1D004378FD /* AppDelegate.swift */,
+				FBCC61DB2B529E1D004378FD /* SceneDelegate.swift */,
+				FBCC61DF2B529E1D004378FD /* Main.storyboard */,
+				FBCC61E22B529E1F004378FD /* Assets.xcassets */,
+				FBCC61E42B529E1F004378FD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
